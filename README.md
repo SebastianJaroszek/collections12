@@ -17,7 +17,7 @@
 
 ## W których kolekcjach elementy są sortowane i w jaki sposób?
 
-* Interfejsy SortedSet i SortedMap umożliwiają przechowywanie kolekcji uporządkowanych. Wykorzystywany jest naturalny porządek obiektów (compareTo) lub można wskazać Comparator. Implementacjami są TreeSet i TreeMap.
+Interfejsy SortedSet i SortedMap umożliwiają przechowywanie kolekcji uporządkowanych. Wykorzystywany jest naturalny porządek obiektów (compareTo) lub można wskazać Comparator. Implementacjami są TreeSet i TreeMap.
 
 ## Implementacje interfejsu List – złożoność operacji
 
