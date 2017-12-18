@@ -34,5 +34,8 @@ Interfejsy SortedSet i SortedMap umożliwiają przechowywanie kolekcji uporządk
 
 * Napisać program, w którym do zbioru zostanie dodanych kilka wyrazów, a następnie wyświetlona zostanie zawartość zbioru (for-each).
 * Sprawdzić różnice pomiędzy HashSet, TreeSet, LinkedHashSet.
+* HashSet nie ma gwarancji odnośnie porządku.
+* TreeSet drzewo przechowuje elementy godnie z wartością.
+* LinkedHashSet przechowuje elementy zgodnie z kolejnością wstawiania.
 
 ## Do których kolekcji można wstawiać wartości null?
