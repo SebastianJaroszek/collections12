@@ -8,14 +8,17 @@ import java.util.TreeSet;
 public class SetOperations {
 
     public static void main(String[] args) {
+        System.out.println("HashSet:");
         Set<String> hashSet = new HashSet<String>();
         fillSet(hashSet);
         showSet(hashSet);
 
+        System.out.println("\nTreeSet:");
         Set<String> treeSet = new TreeSet<String>();
         fillSet(treeSet);
         showSet(treeSet);
 
+        System.out.println("\nLinkedHashSet");
         Set<String> linkedHashSet = new LinkedHashSet<String>();
         fillSet(linkedHashSet);
         showSet(linkedHashSet);
