@@ -1,11 +1,15 @@
 package pl.sdaprogramowanieii;
 
+import com.sun.glass.ui.Size;
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
 public class SetOperations {
+
+    private static final SizeComparator SIZE_COMPARATOR = new SizeComparator();
 
     public static void main(String[] args) {
         System.out.println("HashSet:");
@@ -15,8 +19,7 @@ public class SetOperations {
 
         System.out.println("\nTreeSet:");
         //TODO dodać comparator porównujący długości łańcuchów
-        //SizeComparator sizeComparator = new SizeComparator();
-        Set<String> treeSet = new TreeSet<String>();
+        Set<String> treeSet = new TreeSet<String>(SIZE_COMPARATOR);
         fillSet(treeSet);
         //TODO Adam, Beata/Eliza, Celina, Dariusz, Franciszek
         showSet(treeSet);
