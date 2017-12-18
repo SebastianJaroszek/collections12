@@ -14,8 +14,11 @@ public class SetOperations {
         showSet(hashSet);
 
         System.out.println("\nTreeSet:");
+        //TODO dodać comparator porównujący długości łańcuchów
+        //SizeComparator sizeComparator = new SizeComparator();
         Set<String> treeSet = new TreeSet<String>();
         fillSet(treeSet);
+        //TODO Adam, Beata/Eliza, Celina, Dariusz, Franciszek
         showSet(treeSet);
 
         System.out.println("\nLinkedHashSet");
