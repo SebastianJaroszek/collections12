@@ -27,10 +27,10 @@ public class SetOperations {
     /**
      * Wyświetla wszystkie elementy zbioru korzystając z for-each
      *
-     * @param set
+     * @param set zbiór do wyświetlenia
      */
     private static void showSet(Set<String> set) {
-        for (String element : set){
+        for (String element : set) {
             System.out.println(element);
         }
     }
@@ -43,10 +43,10 @@ public class SetOperations {
 
     private static void fillSet(Set<String> set) {
         set.add("Adam");
-        set.add("Beata");
         set.add("Celina");
-        set.add("Dariusz");
-        set.add("Eliza");
+        set.add("Beata");
         set.add("Franciszek");
+        set.add("Eliza");
+        set.add("Dariusz");
     }
 }
