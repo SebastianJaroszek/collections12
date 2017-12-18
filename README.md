@@ -2,7 +2,18 @@
 
 ## W jaki sposób wygląda hierarchia interfejsów związana z kolekcjami?
 
+* Na szczycie hierarchii znajduje się interfejs Collection
+* Pochodnymi interfejsu Collection są: List, Set, Queue i Deque
+* Interfejs Map nie znajduje się w powyższej hierarchii
+* Interfejs SortedSet, SortedMap umożliwiają przechowywanie posortowanych kolekcji
+
 ## Jakie są podstawowe implementacje poszczególnych interfejsów?
+
+* Implementacje interfejsu List: ArrayList, LinkedList
+* Implementacje interfejsu Set: HashSet, TreeSet, LinkedHashSet
+* Implementacje interfejsu Queue: LinkedList
+* Implementacje inferfejsu Deque: LinkedList
+* Implementacje inferfejsu Map: HashMap, TreeMap, LinkedHashMap
 
 ## W których kolekcjach elementy są sortowane i w jaki sposób?
 
