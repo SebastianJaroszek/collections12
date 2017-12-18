@@ -32,4 +32,7 @@
 
 ## Napisać operacje wykorzystującą różne implementacje Set i sprawdzić różnice w operacjach dodawania do zbioru
 
+* Napisać program, w którym do zbioru zostanie dodanych kilka wyrazów, a następnie wyświetlona zostanie zawartość zbioru (for-each).
+* Sprawdzić różnice pomiędzy HashSet, TreeSet, LinkedHashSet.
+
 ## Do których kolekcji można wstawiać wartości null?
